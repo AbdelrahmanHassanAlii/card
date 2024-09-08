@@ -190,26 +190,42 @@ body {
   transition: color 0.3s ease;
 }
 
+/* Gradient Backgrounds for Social Links */
 .facebook {
-  background-color: #3b5998;
+  background-image: linear-gradient(to right, #4567b7, #3b5998); /* Facebook gradient */
 }
+
 .github {
-  background-color: #333;
+  background-image: linear-gradient(to right, #444, #333); /* GitHub gradient */
 }
+
 .linkedin {
-  background-color: #0077b5;
+  background-image: linear-gradient(to right, #0099cc, #0077b5); /* LinkedIn gradient */
 }
+
 .whatsapp {
-  background-color: #25d366;
+  background-image: linear-gradient(to right, #34c759, #25d366); /* WhatsApp gradient */
 }
+
+.gmail {
+  background-image: linear-gradient(to right, #ff8a00, #dd4b39); /* Gmail gradient */
+}
+
 .frontend-mentor {
-  background-color: var(--primary-color);
+  background-image: linear-gradient(to right, #5c6bc0, #3f51b5); /* Frontend Mentor gradient */
 }
+
 .portfolio {
-  background-color: var(--secondary-color);
+  background-image: linear-gradient(to right, #7986cb, #5c6bc0); /* Portfolio gradient */
 }
+
 .cv {
-  background-color: var(--accent-color);
+  background-image: linear-gradient(to right, #ff4081, #d81b60); /* CV gradient */
+}
+
+/* Ensure text is readable on gradients */
+.social-links a {
+  color: #fff; /* White text color for contrast */
 }
 
 /* Responsive Design */
